@@ -15,6 +15,11 @@
     "port-wrapper"
   ],
   "author": "dethz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katzEco/ez-serve"
+  },
+  "homepage": "https://github.com/katzEco/ez-serve",
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.21",
