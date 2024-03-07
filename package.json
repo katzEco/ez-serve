@@ -1,14 +1,14 @@
 {
   "name": "ez-serve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express.js Port listening Wrapper",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc --build --force"
+    "build": "tsup"
   },
   "files": [
-    "dist/**/*"
+    "dist"
   ],
   "keywords": [
     "express",
@@ -25,6 +25,7 @@
     "@types/express": "^4.17.21",
     "ts-node": "^10.9.2",
     "tsc": "^2.0.4",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.2"
   },
   "dependencies": {
